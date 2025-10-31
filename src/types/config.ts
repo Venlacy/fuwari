@@ -100,10 +100,3 @@ export type BlogPostData = {
 export type ExpressiveCodeConfig = {
 	theme: string;
 };
-
-export type AISummaryConfig = {
-	enable: boolean;
-	apiUrl: string;
-	apiKey: string;
-	model: string;
-};
